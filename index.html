@@ -1,147 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hakim Graphic Designer</title>
+  <title>Dr. Hakim | Graphic Designer</title>
   <style>
     body {
       font-family: "Poppins", sans-serif;
       margin: 0;
-      background: #f9f9f9;
-      color: #333;
+      background: #f8f9fa;
+      color: #222;
+      text-align: center;
     }
     header {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 25px 10px;
+      background: #222;
+      color: #fff;
+      padding: 1rem 0;
     }
-    header img.logo {
+    header img {
       width: 60px;
-      border-radius: 50%;
       vertical-align: middle;
-      margin-right: 10px;
+      border-radius: 50%;
     }
     header h1 {
       display: inline-block;
-      font-size: 2em;
-      margin: 0;
-      vertical-align: middle;
+      margin-left: 10px;
+      font-size: 1.6rem;
     }
-    .profile {
-      text-align: center;
-      margin: 40px auto;
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
     }
     .profile img {
       width: 150px;
       border-radius: 50%;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    .profile h2 {
-      margin-top: 15px;
-      color: #2c3e50;
-    }
-    .btn {
-      background: #3498db;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 15px;
-    }
-    .btn:hover {
-      background: #2980b9;
-    }
-    .portfolio {
-      text-align: center;
-      padding: 30px 10px;
-    }
-    .portfolio h2 {
-      color: #2c3e50;
-    }
-    .portfolio-grid {
+    .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      max-width: 900px;
-      margin: 0 auto;
+      gap: 15px;
+      margin-top: 2rem;
     }
-    .portfolio-grid img {
+    .gallery img {
       width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
-    }
-    .portfolio-grid img:hover {
-      transform: scale(1.05);
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     }
     footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 30px;
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      margin-top: 2rem;
     }
-    .social {
-      margin-top: 10px;
-    }
-    .social a {
-      color: white;
+    .social-links a {
       margin: 0 10px;
+      color: #fff;
       text-decoration: none;
       font-weight: bold;
     }
-    .social a:hover {
-      text-decoration: underline;
+    .social-links a:hover {
+      color: #00c6ff;
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" class="logo" />
-    <h1>Hakim Graphic Designer</h1>
+    <img src="logo.png" alt="Logo" />
+    <h1>Dr. Hakim | Graphic Designer</h1>
   </header>
 
   <section class="profile">
-    <img src="profile.png" alt="Hakim Profile" />
-    <h2>Hello, I m Hakim 👋</h2>
-    <p>A creative graphic designer specializing in branding, social media design, and visual storytelling.</p>
-    <a href="cv.pdf" class="btn" download>📄 Download CV</a>
+    <img src="profile.png" alt="Profile Photo" />
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      I’m Dr. Hakim, a creative graphic designer passionate about turning ideas into impactful visuals.
+    </p>
   </section>
 
-  <section class="portfolio">
-    <h2>My Works</h2>
-    <div class="portfolio-grid">
-      <img src="design1.png" alt="Design 1" />
-      <img src="design2.png" alt="Design 2" />
-      <img src="design3.png" alt="Design 3" />
-      <img src="design4.png" alt="Design 4" />
-      <img src="design5.png" alt="Design 5" />
-      <img src="design6.png" alt="Design 6" />
-    </div>
-  </section>
-
-  <footer>
-    <p>📞 Phone: 0967776696902 | 📧 Email: dr1.hakim2@gmail.com</p>
-    <div class="social">
-      <a href="https://wa.me/9637776696902">WhatsApp</a> |
-      <a href="https://www.instagram.com/">Instagram</a> |
-      <a href="https://www.linkedin.com/">LinkedIn</a>
-    </div>
-  </footer>
-</body>
-</html>
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:dr1.hakim2@gmail.com">dr1.hakim2@gmail.com</a></p>
-    <p>Phone / WhatsApp: <a href="tel:+9637776696902">+963 777 669 6902</a></p>
-    <a href="mailto:dr1.hakim2@gmail.com" class="btn">Hire Me</a>
+  <section class="gallery">
+    <img src="design1.png" alt="Design 1" />
+    <img src="design2.png" alt="Design 2" />
+    <img src="design3.png" alt="Design 3" />
+    <img src="design4.png" alt="Design 4" />
+    <img src="design5.png" alt="Design 5" />
+    <img src="design6.png" alt="Design 6" />
   </section>
 
   <footer>
-    <p>© 2025 Hakim – Graphic Designer. All rights reserved.</p>
+    <h3>Follow Me</h3>
+    <div class="social-links">
+      <a href="https://www.youtube.com/@Dr_Hakim_domyh" target="_blank">YouTube</a> |
+      <a href="https://instagram.com/Hakim_domyh" target="_blank">Instagram</a> |
+      <a href="https://t.me/Hakim_domyh" target="_blank">Telegram</a>
+    </div>
+    <p>© 2025 Dr. Hakim. All rights reserved.</p>
   </footer>
+
+  <!-- زر واتساب -->
+  <a class="whatsapp-btn" href="https://wa.me/0967776696902" target="_blank">💬</a>
 </body>
 </html>
